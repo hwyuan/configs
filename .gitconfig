@@ -1,0 +1,32 @@
+[user]
+	name = Haowei Yuan
+	email = hyuan@wustl.edu
+[push]
+	default = simple
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	unstage = reset HEAD --
+    tree = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[color]
+	ui = true
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+[core]
+	editor = vim
+[diff]
+	tool = vimdiff
